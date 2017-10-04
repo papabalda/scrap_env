@@ -1,0 +1,1 @@
+Environment to deploy Scrappy spiders on scrapinghub
