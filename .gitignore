@@ -1,0 +1,6 @@
+.idea
+__pycache__
+/debug.log
+.csv
+.json
+.jl

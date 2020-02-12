@@ -14,6 +14,9 @@ BOT_NAME = 'scrap_env'
 SPIDER_MODULES = ['scrap_env.spiders']
 NEWSPIDER_MODULE = 'scrap_env.spiders'
 
+#Export as CSV Feed
+#FEED_FORMAT = "csv"
+#FEED_URI = "reddit.csv"
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'scrap_env (+http://www.yourdomain.com)'
