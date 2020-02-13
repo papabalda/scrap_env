@@ -6,6 +6,11 @@ class RedditbotSpider(scrapy.Spider):
     name = 'redditbot'
     allowed_domains = ['www.reddit.com/r/gameofthrones/']
     start_urls = ['https://www.reddit.com/r/gameofthrones/']
+    #location of csv file
+    custom_settings = {
+        'FEED_FORMAT' : 'csv',
+        'FEED_URI' : 'reddit-feed.csv'
+    }    
 
     def parse(self, response):
         #Extracting the content using css selectors
