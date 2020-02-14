@@ -13,3 +13,8 @@ to generate json
 scrapy crawl quotes -o quotes.json
 JSON Lines
 scrapy crawl quotes -o quotes.jl
+
+start new spiders
+scrapy genspider -t crawl spidername mydomain.com
+
+scrapy crawl spidername --set CLOSESPIDER_ITEMCOUNT=50
